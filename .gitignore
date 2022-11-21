@@ -1,4 +1,3 @@
-*.out.csv
-log.log
-find.py
-index.html
+tmp/
+*.csv
+*.log
