@@ -4,7 +4,7 @@ from requests import get
 from json import loads
 from datetime import datetime
 
-BASE_URL = 'https://reddit.com/subreddits/new.json?limit=100'
+BASE_URL = 'https://reddit.com/subreddits/new.json?nsfw=1&include_over_18=on&limit=100'
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36',
 }
